@@ -1,0 +1,13 @@
+Run these commands to extract the contents of the .tar.
+
+"rm -r ./Logan_G_Homework05" 
+"unzip Logan_G_Homework06.zip -d ./Logan_G_Homework05"
+
+I mislabled my previous homework, so I included a recursive removal command.
+I'm assuming you know how to do this stuff, but I would like to make your grading process as easy as possible.
+
+
+Also, you may notice a file with a really weird name. I have no clue what that is. It would not let me delete it, so.......yeah. Ignore it.
+
+
+Thank you!

@@ -1,0 +1,232 @@
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please enter the number of rows you would like to play with (minimum board size is 5, max 40): Please enter the number of columns you would like to play with: (minimum board size is 5, max 40): 
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+New board created!
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (0,0).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (0,0)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (2,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (2,4)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     G R I N N E L L           |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+This word has been undone:
+----------------------------------------
+| Word: GRINNELL
+| Orientation: 'h'
+| Position: (2,4)
+
+To redo this word, please call the redo operation.
+To undo another word, please call the undo operation again.
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+This word has been redone:
+----------------------------------------
+| Word: GRINNELL
+| Orientation: 'h'
+| Position: (2,4)
+
+To undo this word, please call the undo operation.
+To redo another word, please call the redo operation again.
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     G R I N N E L L           |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+This word has been undone:
+----------------------------------------
+| Word: GRINNELL
+| Orientation: 'h'
+| Position: (2,4)
+
+To redo this word, please call the redo operation.
+To undo another word, please call the undo operation again.
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+This word has been redone:
+----------------------------------------
+| Word: GRINNELL
+| Orientation: 'h'
+| Position: (2,4)
+
+To undo this word, please call the undo operation.
+To redo another word, please call the redo operation again.
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     G R I N N E L L           |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 

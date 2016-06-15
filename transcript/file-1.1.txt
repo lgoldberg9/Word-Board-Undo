@@ -1,0 +1,48 @@
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please enter the number of rows you would like to play with (minimum board size is 5, max 40): Please enter the number of columns you would like to play with: (minimum board size is 5, max 40): 
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+New board created!
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+There are no operations to undo.
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 

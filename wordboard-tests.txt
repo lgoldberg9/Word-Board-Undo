@@ -1,0 +1,180 @@
+I believe that my program 'wordboard' operates correctly. As per Weinman's guidelines in "http://www.cs.grinnell.edu/~weinman/courses/CSC161/2015S/homework/word-board.shtml", my program meets all of the necessary requirements outlined at the bottom of the webpage. That is, my program "Initialization clears board and undo history", "Program prints board after each operation", "Added words obey constraints", "Undo operation implemented with a stack", "Redo operation implemented with a stack", and "Program library and compilation managed separately". To demonstrate my program's completeness, I will use multiple test suites to show my program in action at each of these desired functions. (Excuse the pronoun shifts.)
+
+-------------------------------------------------------------------------------
+
+Test Suite 1: Initialization clears board and undo history
+
+In this test suite, I will make sure that the program initializes with a clear board, and then make sure the undo history is brand new.
+
+We will determine that my program: 
+"Initialization clears board"
+
+The format of the board is (row,col).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Test Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+/wordboard < testfiles/testfile-1.1
+
+The program should print a square 15x15 board.
+
+Goal: "Initialization clears board"
+
+./wordboard < testfiles/testfile-1.2
+
+The program should print a rectangular 10x20 board.
+
+Goal: "Initialization clears board"
+
+./wordboard < testfiles/testfile-1.3
+
+The program should print a rectangular 20x10 board.
+
+Goal: "Initialization clears board"
+
+./wordboard < testfiles/testfile-1.4
+
+Should give the error (Please enter a valid board size.) since the board cannot have less than 5 rows.
+
+Goal: Board size boundaries are in place.
+
+./wordboard < testfiles/testfile-1.5
+
+Should give an error since the board cannot have more than 40 rows.
+
+Goal: Board size boundaries are in place.
+
+./wordboard < testfiles/testfile-1.6
+
+The program should print a 15x15 board, then a 30x30 board, then a 5x5 board. All the boards should be blank, and undo should still do nothing.
+
+Goal: "Initialization clears board"
+
+Undo should do nothing for all of the test cases.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Test Suite 2: Added words obey constraints.
+
+In this test suite, I want to ensure that any added words obey the necessary constraints. We will work on a 15x15 board.
+
+We will determine that my program: 
+"Words are added to blank board if they fit"
+"Words are added to board if fitting and overlapping"
+"Words are rejected if not fitting or not overlapping"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Test Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+./wordboard < testfiles/testfile-2.1
+
+This should draw a board with the a single word "Analysis" horizontally. After that, the board should be reinitialized, undo checked to ensure that no operations are completed, and then move the word Analysis to a new location where it cannot be written to the board, and then tried again in a new location where it can be written to the board, again displayed horizontally.
+
+Goal: Horizontally determine "Words are added to blank board if they fit"
+
+./wordboard < testfiles/testfile-2.2
+
+This should draw a board with the a single word "Analysis" vertically. After that, the board should be reinitialized, undo checked to ensure that no operations are completed, and then move the word Analysis to a new location where it cannot be written to the board, and then tried again in a new location where it can be written to the boardagain displayed vertically.
+
+Goal: Vertically determine "Words are added to blank board if they fit"
+
+./wordboard < testfiles/testfile-2.3
+
+This should draw multiple words "Analysis", "System", "Computer", "Curve", "Igloo", "Battery" in multiple ways on the board. "System", "Curve", and "Igloo" will be used to test the restrictions on word placement.
+
+Goals: 
+"Words are added to board if fitting and overlapping"
+"Words are rejected if not fitting or not overlapping"
+
+./wordboard < testfiles/testfile-2.4
+
+Same argument transposed.
+
+Goals: 
+"Words are added to board if fitting and overlapping"
+"Words are rejected if not fitting or not overlapping"
+
+./wordboard < testfiles/testfile-2.5
+
+Here, we play with the WASD feature I added, and we also play with the 'j' command to make sure it cannto go out-of-bounds as well as the cursor print 'p'.
+
+Goals: Demonstrating completeness of program.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Test Suite 3: Undo and Redo operations implemented with stack.
+
+In this test suite, I want to ensure that any added words obey the necessary constraints as well as the user features I added. We will work on a 15x15 board.
+
+We will determine that my program: 
+"Program prints board after each operation (except quit)"
+"Undo correctly removes a play from the board"
+"Repeated undo operations remove previous plays"
+"Undone actions are rendered redoable"
+"Redo correctly replays the appropriate action"
+"Repeated redo operations replay appropriate action"
+"Redone actions are rendered undoable"
+"Redo has no effect when redo history is empty"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Test Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+./wordboard < testfiles/testfile-3.1
+
+Here we will make sure undo and redo do nothing without a board and also do nothing with a new board that has no words on it.
+
+Goal: Undo and "Redo has no effect when redo history is empty"
+
+./wordboard < testfiles/testfile-3.2
+
+For this case, we will add a word, then undo and redo it.
+
+Goals: 
+"Undo correctly removes a play from the board"
+"Redo correctly replays the appropriate action"
+
+./wordboard < testfiles/testfile-3.3
+
+For this case, we will load the board from test 2.3, and then undo and redo the words in a haphazard fashion. There's a lot of output for this test, so I'm not going to include any here.
+
+Goals:
+"Program prints board after each operation (except quit)"
+"Repeated undo operations remove previous plays"
+"Undone actions are rendered redoable"
+"Repeated undo operations remove previous plays"
+"Redone actions are rendered undoable"
+
+./wordboard < testfiles/testfile-3.4
+
+For this case, we will add two words, undo one of those words, then add another word, and make sure redo the redo history is cleared.
+
+Goal: "Word add resets redo history"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Test Suite 4: Miscellaneous
+
+Here, we will just test the other quirks of my program like making sure the correct input checks are in place, compiles, etc.
+
+Goal: Completeness of program.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Test Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+rm ./wordboard & make all
+
+Program should compile successfully.
+
+./wordboard < testfiles/testfile-4.1
+
+Checks to make sure that only letters can be inputted onto the word board.
+
+./wordboard < testfiles/testfile-4.2
+
+Checks to make sure that only 'v' and 'h' can be put in for orientation.
+
+./wordboard < testfiles/testfile-4.3
+
+Checks main menu for quirks.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+I will attach the output for each test case in a different folder called transcripts. Each transcript will have the corresponding testfile in its title.
+
+Now since my program passes all these tests, I do believe that it is correct.

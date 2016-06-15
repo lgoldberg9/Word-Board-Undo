@@ -1,0 +1,403 @@
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+There are no operations to redo.
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
+
+Please enter a valid option.
+
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 

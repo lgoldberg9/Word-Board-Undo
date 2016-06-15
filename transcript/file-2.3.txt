@@ -1,0 +1,438 @@
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please enter the number of rows you would like to play with (minimum board size is 5, max 40): Please enter the number of columns you would like to play with: (minimum board size is 5, max 40): 
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+New board created!
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (0,0).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (0,0)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (2,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (2,4)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     A N A L Y S I S           |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (2,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (2,4)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (9,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (9,4)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     A N A L Y S I S           |
+|                   Y           |
+|                   S           |
+|                   T           |
+|                   E           |
+|                   M           |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (9,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (9,4)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (5,10).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (5,10)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+This word cannot go here!
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (5,10)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (7,9).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (7,9)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     A N A L Y S I S           |
+|                   Y           |
+|                   S           |
+|                   T           |
+|                   E           |
+|               C O M P U T E R |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (7,9).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (7,9)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (3,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (3,4)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+This word cannot go here!
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (3,4)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (7,9).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (7,9)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     A N A L Y S I S           |
+|                   Y           |
+|                   S           |
+|                   T           |
+|                   E           |
+|               C O M P U T E R |
+|               U               |
+|               R               |
+|               V               |
+|               E               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (7,9).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (7,9)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (8,3).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (8,3)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+This word cannot go here!
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (8,3)
+ q:  Return to the main menu.
+Please choose an option: 
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (8,4)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     A N A L Y S I S           |
+|                 G Y           |
+|                 L S           |
+|                 O T           |
+|                 O E           |
+|               C O M P U T E R |
+|               U               |
+|               R               |
+|               V               |
+|               E               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: Please select an orientation for this word ('v' for vertical, 'h' for horizontal): Please enter the word you would like to add: Initializing cursor at (8,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (8,4)
+ q:  Return to the main menu.
+Please choose an option: Please enter which tile you want to move to (col,row): 
+Moved to tile (14,4).
+
+---Word Placement Navigation Pane---
+ a:  Move one column left.
+ w:  Move one row up.
+ s:  Move one row down.
+ d:  Move one column right.
+ j:  Move to any tile.
+ p:  Print the cursor location.
+ #:  Add word to position: (14,4)
+ q:  Return to the main menu.
+Please choose an option: 
+Adding word to gameboard...
+
+=========== Word Board===========
+---------------------------------
+|                               |
+|                               |
+|                               |
+|                               |
+|     A N A L Y S I S         B |
+|                 G Y         A |
+|                 L S         T |
+|                 O T         T |
+|                 O E         E |
+|               C O M P U T E R |
+|               U             Y |
+|               R               |
+|               V               |
+|               E               |
+|                               |
+---------------------------------
+
+Returning to main menu...
+
+Menu options:
+   i:  initialize the board
+   a:  add a new word to the board
+   u:  undo the previous word addition(s)
+   r:  redo the previous undo operation
+   q:  quit
+
+Please enter one of the above options: 
